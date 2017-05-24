@@ -1,0 +1,28 @@
+{
+  "name": "http-dump",
+  "version": "0.0.1",
+  "description": "Listen on a port, dump everything that comes to the filesystem.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "bin": "index.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-dump": "0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "repository": "mvaldesdeleon/http-dump",
+  "keywords": [
+    "log",
+    "dump",
+    "json",
+    "collect",
+    "filesystem",
+    "express"
+  ],
+  "author": "Martin Valdes de Leon <m.valdesdeleon@gmail.com>",
+  "license": "MIT"
+}
