@@ -3,7 +3,7 @@ const dump = require('express-dump');
 
 const port = process.env.PORT || 5000;
 
-const { middleware, dump: flush } = dump({basePath: 'dump'});
+const { middleware, dump: flush } = dump({path: `${__dirname}/dump`});
 
 app.use(middleware);
 
