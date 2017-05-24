@@ -9,7 +9,7 @@
   "bin": "index.js",
   "dependencies": {
     "express": "^4.15.3",
-    "express-dump": "0.0.1"
+    "express-dump": "0.0.2"
   },
   "devDependencies": {
     "eslint": "^3.19.0"
