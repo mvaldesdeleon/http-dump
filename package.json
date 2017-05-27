@@ -1,6 +1,6 @@
 {
   "name": "http-dump",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Listen on a port, dump everything that comes to the filesystem.",
   "main": "index.js",
   "scripts": {

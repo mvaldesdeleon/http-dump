@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const app = require('express')();
 const dump = require('express-dump');
 
